@@ -1845,7 +1845,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		border-radius: 6px;
+		border-radius: 200px;
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
@@ -2268,25 +2268,26 @@ input, select, textarea {
 
 /* Image */
 
-	.image {
-		border-radius: 6px;
-		border: 0;
+	/* .image {
+		border-radius: 6px; 
+		border: 0; 
 		display: inline-block;
 		position: relative;
 		overflow: hidden;
-	}
+	} */
 
-		.image img {
+		/* .image img {
 			border-radius: 6px;
 			display: block;
+	
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 200%;
 		}
 
 			.image.left img, .image.right img {
-				width: 100%;
+				width: 200%;
 			}
 
 		.image.left {
@@ -2299,8 +2300,8 @@ input, select, textarea {
 			float: right;
 			margin: 0 0 1em 1.5em;
 			top: 0.25em;
-		}
-
+		} */
+/* 
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
@@ -2318,14 +2319,14 @@ input, select, textarea {
 		}
 
 			.image.main img {
-				width: 100%;
-			}
+				width: 150%;
+			} */
 
 		.image.phone {
 			box-shadow: none;
 			border-radius: 0;
 			margin: 0 0 3em 0;
-			width: 13em;
+			width: 23em;
 		}
 
 			.image.phone img {
@@ -2335,7 +2336,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
-			.image.phone .inner, .image.phone:before, .image.phone:after {
+			/* .image.phone .inner, .image.phone:before, .image.phone:after {
 				display: block;
 				border: solid 2px rgba(255, 255, 255, 0.25);
 			}
@@ -2365,7 +2366,7 @@ input, select, textarea {
 					width: 2em;
 					height: 2em;
 					border-radius: 100%;
-					border: solid 2px rgba(255, 255, 255, 0.25);
+					border: solid 2px rgba(255, 255, 255, 0.25); */
 				}
 
 			.image.phone:before, .image.phone:after {
@@ -2385,10 +2386,11 @@ input, select, textarea {
 			}
 
 	.image {
-		box-shadow: 0 0 0 4px #ffffff, 0 0 0 5px #e6e6e6;
+		/* box-shadow: 0 0 0 4px #ffffff, 0 0 0 5px #e6e6e6; */
+		width: 25em; 
 	}
 
-		.image.phone {
+		/* .image.phone {
 			box-shadow: none;
 		}
 
@@ -2402,7 +2404,7 @@ input, select, textarea {
 
 			.image.phone .inner:after {
 				border-color: #e6e6e6;
-			}
+			} */
 
 /* List */
 
